@@ -1,7 +1,15 @@
-var hari = 25
-var bulan = 12
-var tahun = 2200
- 
+var hari = 44
+var bulan = 14
+var tahun = 2300
+
+if (hari < 1 || hari > 31) {
+  console.log('Input Hari Salah!')
+} else if (tahun < 1900 || tahun > 2200) {
+  console.log('Input Tahun Salah!')
+} else if (bulan < 1 || bulan > 12) {
+  console.log('Input Bulan Salah!')
+} else {
+
 switch (bulan) {
   case 1:
   console.log(`${hari} Januari ${tahun}`);
@@ -53,4 +61,4 @@ switch (bulan) {
 
 
 }
-
+}
