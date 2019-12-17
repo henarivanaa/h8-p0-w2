@@ -1,0 +1,39 @@
+1. Newton second law
+    ΣF = resultan gaya (Newton)
+    m = massa benda (kg)
+    a = percepatan benda (m/s2)
+
+    calculate 'm' times 'a'
+    set 'ΣF' value with calculation result
+
+    display ΣF 
+
+2. Tahun Kabisat 
+    Store "tahun" with any number
+    
+    if (("tahun" divided by 4 equals 0) and ("tahun" divided by 100 not equals 0)) 
+    display "kabisat" 
+
+    else display "not kabisat"
+
+3. Laundry Day 
+    "input" equals amount of clothes that will be washed 
+
+    While "input" < 20
+        Add "input" by 1
+
+    Display "On"
+
+4. Periksa kuku
+
+    while "student" < 40
+        if "kuku panjang" 
+        display "Nice!"
+
+        else
+        display "BENERIN KUKUNYA!"
+
+        ADD "student" by 1
+
+
+     
