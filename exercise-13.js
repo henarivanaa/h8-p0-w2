@@ -1,14 +1,25 @@
 const xo = str => {
-    var x = str.match(/x/g).length
-    var o = str.match(/o/g).length
-  
-    if(x === o) {
-      return true
-    } else {
-      return false
+  var x = 0
+  var o = 0
+  for (i = 0; i < str.length; i++) {
+    if (str[i] === 'x') {
+      x++
+    } else if (str[i] === 'o') {
+      o++
     }
     
   }
+
+  if (x === o) {
+    return true
+  } else {
+    return false
+  }
+}
+
+    
+    
+
   console.log(xo('xoxoxo')); // true
   console.log(xo('oxooxo')); // false
   console.log(xo('oxo')); // false
