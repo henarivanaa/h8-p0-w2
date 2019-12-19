@@ -1,6 +1,6 @@
-var hari = 44
-var bulan = 14
-var tahun = 2300
+var hari = 27
+var bulan = 5
+var tahun = 2000
 
 if (hari < 1 || hari > 31) {
   console.log('Input Hari Salah!')

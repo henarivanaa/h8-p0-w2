@@ -1,10 +1,10 @@
 var kata = ''
 function balikKata(kata) {
     var s = '';
-    var i = kata.length;
-    while (i>0) {
+    
+    for(let i = kata.length; i>0; i--) {
         s += kata.substring(i-1,i);
-        i--;
+        
     }
     return s;
 }
