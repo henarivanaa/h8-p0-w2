@@ -59,7 +59,7 @@ function mineCraft(tambang) {
     }
 }
 
-console.log(mineCraft('#g####c##s')); //120
+console.log(mineCraft('#g####c##s')); //140
 console.log(mineCraft('######w###q###')); //Tidak ada mineral sama sekali
 console.log(mineCraft('#sdgicp##')); //1170
 console.log(mineCraft('')); //Tidak ada mineral sama sekali
